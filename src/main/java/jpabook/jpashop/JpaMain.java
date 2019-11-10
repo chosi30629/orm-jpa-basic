@@ -1,4 +1,4 @@
-package hellojpa;
+package jpabook.jpashop;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
@@ -17,15 +17,6 @@ public class JpaMain {
 
         try {
 
-            Member member = em.find(Member.class, 150L);
-            member.setName("AAAAA");
-
-//            em.detach(member); // 특정 준영속
-            em.clear(); // 전부 준영속
-
-            Member member2 = em.find(Member.class, 150L);
-
-            System.out.println("=====================");
 
             tx.commit();
         } catch (Exception e) {

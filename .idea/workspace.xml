@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d15ea2c-5b03-469f-bbb0-73c14fed0a34" name="Default Changelist" comment="``">
-      <change afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpql01/JPQLMain04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpql01/domain/JPQLAddress.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpql01/domain/JPQLMember.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpql01/domain/JPQLOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpql01/domain/JPQLProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpql01/domain/JPQLTeam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpql01/JPQLMain05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpql01/dto/MemberDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jpabook/jpql/JPQLMain01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpql01/JPQLMain01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jpabook/jpql/JPQLMain02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpql01/JPQLMain02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jpabook/jpql/JPQLMain03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpql01/JPQLMain03.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,6 +58,7 @@
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="jpabook.jpql01" />
+      <recent name="jpabook.jpql01.domain" />
       <recent name="jpabook.jpql" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -83,7 +77,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.JPQLMain04">
+  <component name="RunManager" selected="Application.JPQLMain05">
     <configuration name="JPQLMain01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="jpabook.jpql01.JPQLMain01" />
       <module name="ex1-hello-jpa" />
@@ -136,12 +130,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JpaMain (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jpabook.jpashop.JpaMain" />
+    <configuration name="JPQLMain05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jpabook.jpql01.JPQLMain05" />
       <module name="ex1-hello-jpa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jpabook.jpashop.*" />
+          <option name="PATTERN" value="jpabook.jpql01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JPQLMain05" />
         <item itemvalue="Application.JPQLMain04" />
         <item itemvalue="Application.JPQLMain03" />
         <item itemvalue="Application.JPQLMain02" />
         <item itemvalue="Application.JPQLMain01" />
-        <item itemvalue="Application.JpaMain (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +163,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1573218627078</updated>
-      <workItem from="1573218629350" duration="18047000" />
+      <workItem from="1573218629350" duration="19216000" />
     </task>
     <servers />
   </component>

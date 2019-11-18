@@ -33,4 +33,12 @@ public class JPQLTeam {
     public void setName(String name) {
         this.name = name;
     }
+
+    public List<JPQLMember> getMembers() {
+        return members;
+    }
+
+    public void setMembers(List<JPQLMember> members) {
+        this.members = members;
+    }
 }

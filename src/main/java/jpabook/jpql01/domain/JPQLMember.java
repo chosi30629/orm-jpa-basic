@@ -2,6 +2,8 @@ package jpabook.jpql01.domain;
 
 import javax.persistence.*;
 
+import static javax.persistence.FetchType.LAZY;
+
 @Entity
 public class JPQLMember {
 
@@ -10,9 +12,14 @@ public class JPQLMember {
     private String username;
     private int age;
 
-    @ManyToOne
+    @ManyToOne(fetch = LAZY)
     @JoinColumn(name = "TEAM_ID")
     private JPQLTeam team;
+
+    public void changeTeam(JPQLTeam team) {
+        this.team = team;
+        team.getMembers().add(this);
+    }
 
     public Long getId() {
         return id;
@@ -36,6 +43,14 @@ public class JPQLMember {
 
     public void setAge(int age) {
         this.age = age;
+    }
+
+    public JPQLTeam getTeam() {
+        return team;
+    }
+
+    public void setTeam(JPQLTeam team) {
+        this.team = team;
     }
 
     @Override

@@ -1,4 +1,4 @@
-package jpabook.jpql;
+package jpabook.jpql01;
 
 import jpabook.jpashop.domain.Member;
 
@@ -20,7 +20,7 @@ public class JPQLMain01 {
         try {
 
             List<Member> result = em.createQuery(
-                    "select m FROM Member m where m.name like '%cho'",
+                    "select m FROM JPQLMember m where m.name like '%cho'",
                     Member.class
             ).getResultList();
 

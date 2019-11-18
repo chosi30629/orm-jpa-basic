@@ -1,4 +1,4 @@
-package jpabook.jpql;
+package jpabook.jpql01;
 
 import jpabook.jpashop.domain.Member;
 

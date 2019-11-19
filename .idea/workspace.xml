@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d15ea2c-5b03-469f-bbb0-73c14fed0a34" name="Default Changelist" comment="``">
-      <change afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpql01/JPQLMain08.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpql01/JPQLMain09.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpql01/domain/MemberType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jpabook/jpql01/domain/JPQLMember.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpql01/domain/JPQLMember.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -76,20 +78,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.JPQLMain08">
-    <configuration name="JPQLMain04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jpabook.jpql01.JPQLMain04" />
-      <module name="ex1-hello-jpa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="jpabook.jpql01.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.JPQLMain09">
     <configuration name="JPQLMain05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="jpabook.jpql01.JPQLMain05" />
       <module name="ex1-hello-jpa" />
@@ -142,13 +131,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="JPQLMain09" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jpabook.jpql01.JPQLMain09" />
+      <module name="ex1-hello-jpa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jpabook.jpql01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JPQLMain09" />
         <item itemvalue="Application.JPQLMain08" />
         <item itemvalue="Application.JPQLMain07" />
         <item itemvalue="Application.JPQLMain06" />
         <item itemvalue="Application.JPQLMain05" />
-        <item itemvalue="Application.JPQLMain04" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +164,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1573218627078</updated>
-      <workItem from="1573218629350" duration="21765000" />
+      <workItem from="1573218629350" duration="22321000" />
     </task>
     <servers />
   </component>

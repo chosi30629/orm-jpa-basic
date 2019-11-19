@@ -16,6 +16,9 @@ public class JPQLMember {
     @JoinColumn(name = "TEAM_ID")
     private JPQLTeam team;
 
+    @Enumerated(EnumType.STRING)
+    private MemberType type;
+
     public void changeTeam(JPQLTeam team) {
         this.team = team;
         team.getMembers().add(this);
@@ -51,6 +54,14 @@ public class JPQLMember {
 
     public void setTeam(JPQLTeam team) {
         this.team = team;
+    }
+
+    public MemberType getType() {
+        return type;
+    }
+
+    public void setType(MemberType type) {
+        this.type = type;
     }
 
     @Override

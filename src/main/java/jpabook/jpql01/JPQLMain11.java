@@ -47,7 +47,7 @@ public class JPQLMain11 {
 //                    "select size(t.members) from JPQLTeam t";
 //                    "select index(t.members) from JPQLTeam t";
 //                    "select function('group_concat', m.username) from JPQLMember m";
-                    "select group_concat(m.username) from JPQLMember m";    // hibernate 사용 시
+                    "select group_concat(m.username) from JPQL2Member m";    // hibernate 사용 시
 
             List<String> result2 = em.createQuery(query2, String.class)
                     .getResultList();

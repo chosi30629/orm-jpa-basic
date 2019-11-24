@@ -36,7 +36,7 @@ public class JPQLMain09 {
             em.flush();
             em.clear();
 
-            String query = "select m.username, 'HELLO', TRUE from JPQLMember m " +
+            String query = "select m.username, 'HELLO', TRUE from JPQL2Member m " +
                             "where m.type = jpabook.jpql01.domain.MemberType.ADMIN";
             List<Object[]> resultList = em.createQuery(query)
                     .getResultList();
@@ -47,7 +47,7 @@ public class JPQLMain09 {
                 System.out.println("objects[2] = " + objects[2]);
             }
 
-            String query1 = "select m.username, 'HELLO', TRUE from JPQLMember m " +
+            String query1 = "select m.username, 'HELLO', TRUE from JPQL2Member m " +
                     "where m.type = :userType";
             List<Object[]> resultList1 = em.createQuery(query1)
                     .setParameter("userType", MemberType.ADMIN)
@@ -57,12 +57,12 @@ public class JPQLMain09 {
             em.createQuery("select i from Item i where type(i) = Book ", Item.class)
                     .getResultList();
 
-            String query2 = "select m.username, 'HELLO', TRUE from JPQLMember m " +
+            String query2 = "select m.username, 'HELLO', TRUE from JPQL2Member m " +
                     "where m.username is not null";
             List<Object[]> resultList2 = em.createQuery(query2)
                     .getResultList();
 
-            String query3 = "select m.username, 'HELLO', TRUE from JPQLMember m " +
+            String query3 = "select m.username, 'HELLO', TRUE from JPQL2Member m " +
                     "where m.age between 0 and 10";
             List<Object[]> resultList3 = em.createQuery(query3)
                     .getResultList();

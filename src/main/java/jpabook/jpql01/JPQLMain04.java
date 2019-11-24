@@ -25,7 +25,7 @@ public class JPQLMain04 {
             TypedQuery<String> query2 = em.createQuery("select m.username from JPQLMember m", String.class);
 
             // 반환타입 미명확
-            Query query3 = em.createQuery("select m.username, m.age from JPQLMember m");
+            Query query3 = em.createQuery("select m.username, m.age from JPQL2Member m");
 
             TypedQuery<JPQLMember> query4 = em.createQuery("select m from JPQLMember m", JPQLMember.class);
             List<JPQLMember> resultList = query4.getResultList();

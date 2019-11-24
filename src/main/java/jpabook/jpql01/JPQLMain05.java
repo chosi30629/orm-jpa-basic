@@ -48,14 +48,14 @@ public class JPQLMain05 {
                     .getResultList();
 
             // 스칼라 타입 프로젝션
-            List resultList = em.createQuery("select m.username, m.age from JPQLMember m")
+            List resultList = em.createQuery("select m.username, m.age from JPQL2Member m")
                     .getResultList();
             Object o = resultList.get(0);
             Object[] results = (Object[]) o;
             System.out.println("username = " + results[0]);
             System.out.println("age = " + results[1]);
 
-            List<Object[]> resultList1 = em.createQuery("select m.username, m.age from JPQLMember m")
+            List<Object[]> resultList1 = em.createQuery("select m.username, m.age from JPQL2Member m")
                     .getResultList();
             Object[] results1 = resultList1.get(0);
             System.out.println("username = " + results1[0]);

@@ -2,9 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d15ea2c-5b03-469f-bbb0-73c14fed0a34" name="Default Changelist" comment="``">
-      <change afterPath="$PROJECT_DIR$/src/main/java/jpabook/dialect/MyH2Dialect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpql01/JPQLMain11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpql02/JPQLMain01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpql02/domain/JPQL2Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpql02/domain/JPQL2Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpql02/domain/JPQL2Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpql02/domain/JPQL2Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpql02/domain/JPQL2Team.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpql02/domain/Member2Type.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpql02/dto/MemberDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jpabook/jpql01/JPQLMain04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpql01/JPQLMain04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jpabook/jpql01/JPQLMain05.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpql01/JPQLMain05.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jpabook/jpql01/JPQLMain09.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpql01/JPQLMain09.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jpabook/jpql01/JPQLMain11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpql01/JPQLMain11.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" afterDir="false" />
     </list>
@@ -40,6 +50,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/jpabook/jpql02" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -57,6 +68,9 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="jpabook.jpql01.domain" />
       <recent name="jpabook.jpashop.domain" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/jpabook/jpql02" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="jpabook.jpql01" />
@@ -79,13 +93,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.JPQLMain11">
-    <configuration name="JPQLMain07" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jpabook.jpql01.JPQLMain07" />
+  <component name="RunManager" selected="Application.JPQLMain01">
+    <configuration name="JPQLMain01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jpabook.jpql02.JPQLMain01" />
       <module name="ex1-hello-jpa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jpabook.jpql01.*" />
+          <option name="PATTERN" value="jpabook.jpql02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JPQLMain01" />
         <item itemvalue="Application.JPQLMain11" />
         <item itemvalue="Application.JPQLMain10" />
         <item itemvalue="Application.JPQLMain09" />
         <item itemvalue="Application.JPQLMain08" />
-        <item itemvalue="Application.JPQLMain07" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +179,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1573218627078</updated>
-      <workItem from="1573218629350" duration="24691000" />
+      <workItem from="1573218629350" duration="25729000" />
     </task>
     <servers />
   </component>

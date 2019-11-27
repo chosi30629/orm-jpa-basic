@@ -5,6 +5,10 @@ import javax.persistence.*;
 import static javax.persistence.FetchType.LAZY;
 
 @Entity
+@NamedQuery(
+        name = "Member.findByUsername",
+        query = "select m from JPQL2Member m where m.username = :username"
+)
 public class JPQL2Member {
 
     @Id @GeneratedValue
